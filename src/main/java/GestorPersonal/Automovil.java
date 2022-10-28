@@ -1,3 +1,4 @@
+package GestorPersonal;
 public class Automovil {
 	private String marca;
 	private String modelo;

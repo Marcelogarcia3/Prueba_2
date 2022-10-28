@@ -1,3 +1,4 @@
+package GestorPersonal;
 public class Correo_Electronico {
 	private String direccionCorreoElectronico;
 	private String provedorCorreo;

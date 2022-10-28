@@ -1,3 +1,4 @@
+package GestorPersonal;
 public class Motor {
 	private int numeroMotor;
 	private int centimetrosCubicos;

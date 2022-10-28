@@ -1,3 +1,4 @@
+package GestorPersonal;
 public class Chasis {
 	private int numeroChasis;
 	private String tipoMaterial;
