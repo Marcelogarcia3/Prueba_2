@@ -42,16 +42,25 @@ public class GestorPersonal {
 
 
 
+
     public List mostrarPersonaMarca(Persona persona){
         ArrayList<Persona> personas = new ArrayList<>();
         for(Persona persona : this.personas){
-            if(Automovil.getMarca().equals(marca)){
+            if(persona.getMarca().equals(marca)){
                 System.out.println(persona.toString());
             }
         }
         return personas;
     }
 
-
+    public List mostrarPersonaNombre(String nombre){
+        ArrayList<Persona> personas = new ArrayList<>();
+        for(Persona persona : this.personas){
+            if(persona.getNombre().equals(nombre)){
+                System.out.println(persona.toString());
+            }
+        }
+        return personas;
+    }
 
 }
